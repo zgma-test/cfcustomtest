@@ -1,0 +1,78 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "9fdb383e-4052-49b3-8312-672c7afc0ad4": {
+        "id": "9fdb383e-4052-49b3-8312-672c7afc0ad4",
+        "parent": null,
+        "name": "CFCustomTest.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "CFCustomTest.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "CFCustomTest"
+        },
+        "triggers": [],
+        "lastUpdated": 1600252331540
+      }
+    },
+    "openFiles": [
+      "9fdb383e-4052-49b3-8312-672c7afc0ad4"
+    ],
+    "currentFileId": "9fdb383e-4052-49b3-8312-672c7afc0ad4",
+    "resources": {},
+    "customTemplate": {
+      "dialect": "CloudFormation",
+      "definitions": {
+        "Resources": {
+          "CFCustomTest": {
+            "Properties": {
+              "Description": "Custom description"
+            }
+          }
+        }
+      }
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.3",
+    "projectName": "CFCustomTest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1600252378125
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "cfcustomtest",
+      "url": "https://github.com/zgma-test/cfcustomtest"
+    }
+  }
+}
