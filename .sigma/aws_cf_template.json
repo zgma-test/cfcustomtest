@@ -27,7 +27,7 @@
       "Type": "AWS::Lambda::Function",
       "Properties": {
         "FunctionName": "CFCustomTest",
-        "Description": "Custom description",
+        "Description": "Custom description 1",
         "Code": {
           "S3Bucket": {
             "Ref": "lambdaCodeBucketParameter"
